@@ -7,7 +7,7 @@ const int RedLED = 4;
 Servo myservo;
 
 void setup() {
-  myservo.attach(servoPin);a
+  myservo.attach(servoPin);
   pinMode(irPin, INPUT);
   myservo.write(0);
   pinMode(RedLED, OUTPUT);
